@@ -1,0 +1,30 @@
+package com.twoDArrays;
+
+import java.util.Scanner;
+
+public class stateOfWakanda2 {
+    public static void main(String[] args) {
+        Scanner scn=new Scanner(System.in);
+
+        int n=scn.nextInt();
+
+        int[][] arr=new int[n][n];
+
+        for(int i=0;i<n;i++){
+            for(int j = 0; j<n; j++){
+                arr[i][j]=scn.nextInt();
+            }
+        }
+
+        int start=0,end=0;
+        while(end<arr.length){
+            int i=start,j=end;
+            while(j<arr.length){
+                System.out.println(arr[i][j]);
+                i++;
+                j++;
+            }
+            end++;
+        }
+    }
+}
