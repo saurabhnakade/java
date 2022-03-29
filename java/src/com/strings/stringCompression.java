@@ -1,11 +1,12 @@
-package com.practice;
+package com.strings;
 
 import java.util.Scanner;
 
-public class test {
+public class stringCompression {
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
 
-        String a="Codeforces";
+        String s=scn.next();
+
     }
 }
